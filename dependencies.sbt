@@ -1,6 +1,8 @@
-// TODO: Restore once more libraries are compiled for RC3.
-// scalaVersion := "3.0.0-RC3"
-ThisBuild / scalaVersion := "3.0.0-RC2"
+ThisBuild / scalaVersion := "3.0.0-RC3"
+
+ThisBuild / libraryDependencies ++=
+  "dev.zio" %% "zio" % "1.0.7" ::
+    Nil
 
 ThisBuild / libraryDependencies ++=
   "org.scalacheck" %% "scalacheck" % "1.15.4" % Test ::
