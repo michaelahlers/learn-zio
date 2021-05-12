@@ -9,3 +9,9 @@
 //    "-Ywarn-unused:params" ::
 //    "-Ywarn-unused:privates" ::
 //    Nil
+
+// https://youtrack.jetbrains.com/issue/SCL-10469
+//Compile / console / scalacOptions --=
+//  "-encoding" ::
+//    "utf8" ::
+//    Nil
