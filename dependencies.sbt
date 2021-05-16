@@ -1,4 +1,4 @@
-ThisBuild / scalaVersion := "3.0.0-RC3"
+ThisBuild / scalaVersion := "3.0.0"
 
 ThisBuild / libraryDependencies ++=
   "dev.zio" %% "zio" % "1.0.7" ::
