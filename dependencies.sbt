@@ -1,4 +1,6 @@
-ThisBuild / scalaVersion := "3.0.0"
+/** @todo Update once all dependencies are built against the release. */
+//ThisBuild / scalaVersion := "3.0.0"
+ThisBuild / scalaVersion := "3.0.0-RC3"
 
 ThisBuild / libraryDependencies ++=
   "dev.zio" %% "zio" % "1.0.7" ::
