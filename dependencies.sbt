@@ -1,9 +1,7 @@
-/** @todo Update once all dependencies are built against the release. */
-//ThisBuild / scalaVersion := "3.0.0"
-ThisBuild / scalaVersion := "3.0.0-RC3"
+ThisBuild / scalaVersion := "3.0.0"
 
 ThisBuild / libraryDependencies ++=
-  "dev.zio" %% "zio" % "1.0.7" ::
+  "dev.zio" %% "zio" % "1.0.8" ::
     Nil
 
 ThisBuild / libraryDependencies ++=
@@ -16,7 +14,7 @@ ThisBuild / libraryDependencies ++=
 //    Nil
 
 ThisBuild / libraryDependencies ++=
-  "dev.zio" %% "zio-test" % "1.0.7" % Test ::
-    "dev.zio" %% "zio-test-sbt" % "1.0.7" % Test ::
-    "dev.zio" %% "zio-test-magnolia" % "1.0.7" % Test ::
+  "dev.zio" %% "zio-test" % "1.0.8" % Test ::
+    "dev.zio" %% "zio-test-sbt" % "1.0.8" % Test ::
+    "dev.zio" %% "zio-test-magnolia" % "1.0.8" % Test ::
     Nil
